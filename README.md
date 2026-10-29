@@ -21,6 +21,9 @@ Sem este passo funciona na mesma: o kit instala tudo no arranque de cada sessão
 
 - `whisper-small.tar`, `whisper-medium.tar`: modelos Whisper convertidos para CTranslate2 pela Systran
   (faster-whisper), licença MIT, iguais aos do Hugging Face `Systran/faster-whisper-small` e `-medium`.
+- `whisper-large-v3-turbo.tar`: o large-v3-turbo da Mobius Labs (`mobiuslabsgmbh/faster-whisper-large-v3-turbo`,
+  licença MIT, SHA-256 3622d686…ef3bead). Não é usado: a 2026-10-29, nos vídeos da Marta e da Patrícia, errou 39
+  palavras contra 36 do medium e demorou mais um quarto. Fica para um teste futuro.
 - `face_detection_yunet_2023mar.onnx`: YuNet do OpenCV Zoo, licença MIT.
 
 O ffmpeg vem das builds do BtbN no GitHub e o modelo RVM do repositório original (PeterL1n/RobustVideoMatting).
